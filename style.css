@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.grid-container {
+    border: 2px solid rgb(235, 49, 80);
+    text-align: center;
+    text-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 50px;
+}
+
+.grid-item {
+    border: 2px solid rgba(198, 112, 219, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+/*  #### Task 2 */
+
+.grid-container2 {
+    border: 2px solid rgb(235, 49, 80);
+    text-align: center;
+    text-size: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 50px;
+
+}
+
+.grid-container2>* {
+    border: 2px solid rgba(55, 52, 224, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+
+.grid-item2 {
+    background: mediumorchid;
+    grid-column: 2/4;
+}
+
+.grid-item6 {
+    background: rgb(18, 224, 18);
+    grid-column: 3/5;
+}
+
+.grid-item9 {
+    background: rgb(248, 244, 6);
+    grid-column: 2/3;
+    grid-row: 3/5;
+
+}
+
+.grid-item10 {
+    background: rgb(77, 10, 68);
+    grid-column: 4/5;
+    grid-row: 3/5;
+
+}
